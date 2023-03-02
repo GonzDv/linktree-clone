@@ -1,0 +1,57 @@
+
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1676675356577-ccdb5bec1f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 20px auto;
+    
+}
+.profile-pic{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.bio {
+    color: #fff;
+    text-align: center;
+}
+.btn-links {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.btn-links:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+h3 {
+    text-align: center;
+}
+.crunchy {
+    border-radius: 10px;
+}
